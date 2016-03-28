@@ -2,7 +2,7 @@
     "title": "MSU Exponent Website",
     "tagline": "MSU Exponent Website Documentation",
     "author": "Rishad Bharucha",
-    "image": "app.png",
+    "image": "banner.png",
     "ignore": {
             "files": ["Work_In_Progress.md"],
             "folders": ["99_Not_Ready"]

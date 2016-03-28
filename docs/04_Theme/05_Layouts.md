@@ -3,9 +3,15 @@
 		font-size: 14;
 		font-family: courier;
 	}
+
+	img {
+		width: 100%;
+	}
 </style>
 
 <h4>Layouts</h4>
+
+![](layouts.png)
 
 The code for the layout shown above is found in the
 
