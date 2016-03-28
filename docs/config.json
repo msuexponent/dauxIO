@@ -1,7 +1,7 @@
 {
-    "title": "DAUX.IO",
-    "tagline": "The Easiest Way To Document Your Project",
-    "author": "Justin Walsh",
+    "title": "MSU Exponent Website",
+    "tagline": "MSU Exponent Website Documentation",
+    "author": "Rishad Bharucha",
     "image": "app.png",
     "ignore": {
             "files": ["Work_In_Progress.md"],
@@ -20,10 +20,7 @@
         "float": true,
 
         "links": {
-            "Download": "https://github.com/justinwalsh/daux.io/archive/master.zip",
-            "GitHub Repo": "https://github.com/justinwalsh/daux.io",
-            "Help/Support/Bugs": "https://github.com/justinwalsh/daux.io/issues",
-            "Made by Todaymade": "http://todaymade.com"
+            "GitHub Repo": "https://github.com/msuexponent/msuexponent.github.io"
         }
     }
 }
