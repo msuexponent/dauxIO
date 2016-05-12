@@ -12,4 +12,4 @@ parts/sections/desktop-tablet/news-opinion-multimedia.php file:
 
 The following image shows this code snippet in action, a thumbnail of the video with a play button to play the latest video produced by the Multimedia team:
 
-![](multimedia.png)
+![](multimedia.png =450x)
