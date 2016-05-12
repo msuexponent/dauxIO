@@ -6,12 +6,12 @@ Bower works by fetching and installing packages from all over, taking care of hu
 
 While you're working on theme development, run this command before editing any files: 
 
-	```
-	npm run watch
-	```
+```
+npm run watch
+```
 
 If an asset fails to build or you wish to rebuild all the assets, run:
 
-	```
-	npm run build
-	```
+```
+npm run build
+```

@@ -4,14 +4,14 @@ Git Flow is a git branching and release management strategy that helps developer
 
 We primarily use the feature branch to work on code in isolation from the develop branch:
 
-	```
-	git flow feature start featureNameHere
-	git add .
-	git commit -m “Commit message”
-	...
-	git add .
-	git commit -m “Final commit message”
-	git flow feature finish featureNameHere
-	```
+```
+git flow feature start featureNameHere
+git add .
+git commit -m “Commit message”
+...
+git add .
+git commit -m “Final commit message”
+git flow feature finish featureNameHere
+```
 
 Upon completing the feature, the branch will be merged with develop and you can then merge develop with the production master branch after running tests.

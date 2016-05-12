@@ -52,31 +52,31 @@ There are two rows, one for the content and another for displaying a link to get
 
 At a higher level, the layout for the front page consists of calls to partials in the parts/layouts/desktop-tablet.php file:
 	
-	```html
-	<div class="show-for-medium-up">
-		<?php get_template_part('parts/sections/desktop-tablet/featured'); ?>
-		<?php get_template_part('parts/sections/desktop-tablet/news-opinion-multimedia'); ?>
-		<?php get_template_part('parts/sections/desktop-tablet/culture-sports'); ?>
-	</div>
-	```
+```html
+<div class="show-for-medium-up">
+	<?php get_template_part('parts/sections/desktop-tablet/featured'); ?>
+	<?php get_template_part('parts/sections/desktop-tablet/news-opinion-multimedia'); ?>
+	<?php get_template_part('parts/sections/desktop-tablet/culture-sports'); ?>
+</div>
+```
 
 The folder structure can be summed up as follows:
 
-	```
-	parts/sections:
-	```
+```
+parts/sections:
+```
 
 Contains the low-level grid layout for each section (category).
 
-	```
-	parts/layouts:
-	```
+```
+parts/layouts:
+```
 
 Contains the top-level grid layout for all the sections.
 
-	```
-	library/sections:
-	```
+```
+library/sections:
+```
 
 Contains the functions for each section that have been called in the section files. 
 

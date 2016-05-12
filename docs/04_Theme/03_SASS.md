@@ -4,32 +4,32 @@ Sass is a ‘pre-processing’ language. This means that the Sass documents cann
 
 The following SCSS files form the styling workflow:
 
-	```
-	style.css:
-	```
+```
+style.css:
+```
 
 Do not worry about this file, it's required by WordPress. All styling are handled in the Sass files described below.
 
-	```
-	assets/scss/foundation.scss:
-	```
+```
+assets/scss/foundation.scss:
+```
 
 Imports for Foundation components and your custom styles.
 
-	```
-	assets/scss/config/_settings.scss:
-	```
+```
+assets/scss/config/_settings.scss:
+```
 
 Original Foundation 5 base settings.
 
-	```
-	assets/scss/config/_custom-settings.scss:
-	```
+```
+assets/scss/config/_custom-settings.scss:
+```
 
 Copy the settings you will modify to this file. Make it your own.
 
-	```
-	assets/scss/site/*.scss:
-	```
+```
+assets/scss/site/*.scss:
+```
 
 Unleash your creativity. Create the files you need (and remember to make import statements for all your files in assets/scss/foundation.scss)
