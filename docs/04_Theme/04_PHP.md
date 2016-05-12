@@ -4,33 +4,34 @@ Retrieving posts from a certain category or with a certain set of filters can be
 
 ```php
 <?php
-	function get_featured_thumbnail() {
+function get_featured_thumbnail() {
 
-	$args = array (
-			'posts_per_page' => 1, 
-			'category_name' => 'featured', 
-			'meta_key' => '_thumbnail_id'
-			);
+$args = array (
+'posts_per_page' => 1, 
+'category_name' => 'featured', 
+'meta_key' => '_thumbnail_id'
+);
 
-		$the_query = new WP_Query($args);
+$the_query = new WP_Query($args);
 
-		if ( $the_query->have_posts() ) {
-			while ( $the_query->have_posts() ) {
-				$the_query->the_post();
-				// Link
-				echo '<a href="' . get_permalink() . '" title="' . esc_attr( get_post()->post_title ) . '">';
-				
-	// Thumbnail
-				echo get_the_post_thumbnail( get_post()->ID, 'size-thumbnail-medium', array('class' => "headline-img") );
-					echo '</a>';
-			}
-		}
-		else {
-			// no posts found
-		}
+if ( $the_query->have_posts() ) {
+while ( $the_query->have_posts() ) {
+$the_query->the_post();
 
-		wp_reset_postdata();
-	}
+// Link
+echo '<a href="' . get_permalink() . '" title="' . esc_attr( get_post()->post_title ) . '">';
+
+// Thumbnail
+echo get_the_post_thumbnail( get_post()->ID, 'size-thumbnail-medium', array('class' => "headline-img") );
+	echo '</a>';
+}
+}
+else {
+// no posts found
+}
+
+wp_reset_postdata();
+}
 ?>
 ```
 

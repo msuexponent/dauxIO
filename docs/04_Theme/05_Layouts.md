@@ -14,37 +14,37 @@ file and is included below:
 <!-- // Featured // -->
 
 <div class="row" data-equalizer>
-	<div class="medium-5 columns" data-equalizer-watch>	
+<div class="medium-5 columns" data-equalizer-watch>	
 
-		<!-- Latest post thumbnail -->
-		<?php get_featured_thumbnail(); ?>
+<!-- Latest post thumbnail -->
+<?php get_featured_thumbnail(); ?>
 
-	</div>
+</div>
 
-	<div class="medium-7 columns" data-equalizer-watch>
+<div class="medium-7 columns" data-equalizer-watch>
 
-		<!-- Latest post title -->
-		<h3>
-			<?php get_featured_title(); ?>
-		</h3>
+<!-- Latest post title -->
+<h3>
+	<?php get_featured_title(); ?>
+</h3>
 
-		<!-- Single sentence excerpt -->
-		<p class="featured-excerpt">
-			<?php get_featured_excerpt(); ?>
-		</p>
+<!-- Single sentence excerpt -->
+<p class="featured-excerpt">
+	<?php get_featured_excerpt(); ?>
+</p>
 
-		<!-- Three posts with thumbnails --> 
-		<?php get_featured_list(); ?>
-		
-	</div>
+<!-- Three posts with thumbnails --> 
+<?php get_featured_list(); ?>
+
+</div>
 
 </div>
 
 <!-- Get more posts -->
 <div class="row" data-equalizer>
-	<div class="medium-12 columns" data-equalizer-watch>
-		<?php get_more_posts("featured"); ?>
-	</div>
+<div class="medium-12 columns" data-equalizer-watch>
+<?php get_more_posts("featured"); ?>
+</div>
 </div>
 ```
 
@@ -54,9 +54,9 @@ At a higher level, the layout for the front page consists of calls to partials i
 	
 ```html
 <div class="show-for-medium-up">
-	<?php get_template_part('parts/sections/desktop-tablet/featured'); ?>
-	<?php get_template_part('parts/sections/desktop-tablet/news-opinion-multimedia'); ?>
-	<?php get_template_part('parts/sections/desktop-tablet/culture-sports'); ?>
+<?php get_template_part('parts/sections/desktop-tablet/featured'); ?>
+<?php get_template_part('parts/sections/desktop-tablet/news-opinion-multimedia'); ?>
+<?php get_template_part('parts/sections/desktop-tablet/culture-sports'); ?>
 </div>
 ```
 
