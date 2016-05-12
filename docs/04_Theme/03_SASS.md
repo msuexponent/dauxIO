@@ -1,4 +1,4 @@
-## SASS
+### SASS
 
 Sass is a ‘pre-processing’ language. This means that the Sass documents cannot consumed by the browser, but need to be processed into another language that can. Sass is processed into CSS, similar to the way that CoffeeScript is processed into JavaScript.
 

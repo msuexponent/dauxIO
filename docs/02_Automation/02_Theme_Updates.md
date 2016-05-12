@@ -1,4 +1,4 @@
-## Theme Updates
+### Theme Updates
 
 To check for theme updates, you will need the Foundation gem installed on the client (your computer):
 

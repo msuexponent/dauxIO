@@ -1,4 +1,4 @@
-## Caching
+### Caching
 
 Server side caching is provided by Varnish, which generates static pages for better performance. There are no additional steps to carry out, but in the event that the cache needs to be cleared, enter this command in a root terminal:
 

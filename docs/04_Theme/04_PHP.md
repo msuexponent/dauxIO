@@ -1,4 +1,4 @@
-## PHP
+### PHP
 
 Retrieving posts from a certain category or with a certain set of filters can be carried out in two steps - configuring a WP Query object and using this object in ‘the loop’ from the WordPress API. The following code snippet demonstrates these two steps to retrieve the latest post thumbnail from the “Featured” category. 
 

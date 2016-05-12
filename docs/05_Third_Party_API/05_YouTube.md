@@ -1,4 +1,6 @@
-## YouTube
+<link rel="stylesheet" href="../style.css">
+
+### YouTube
 
 The following snippet is YouTube’s official video embed code and is included in the 
 
@@ -12,4 +14,4 @@ parts/sections/desktop-tablet/news-opinion-multimedia.php file:
 
 The following image shows this code snippet in action, a thumbnail of the video with a play button to play the latest video produced by the Multimedia team:
 
-![](multimedia.png =450x)
+![](multimedia.png)

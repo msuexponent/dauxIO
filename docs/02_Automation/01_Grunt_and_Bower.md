@@ -1,4 +1,4 @@
-## Grunt and Bower
+### Grunt and Bower
 
 Grunt is a task-based build tool which automates often mundane tasks such as minification, compilation, unit testing, etc. After configuring the Gruntfile, you can do most of that mundane work without much effort. 
 

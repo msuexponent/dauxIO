@@ -1,4 +1,4 @@
-## SSH keys
+### SSH keys
 
 An SSH key is required to access the files on the server. The first step is to create the key pair on the client machine (usually your computer):
 

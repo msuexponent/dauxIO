@@ -1,4 +1,4 @@
-## Git Flow
+### Git Flow
 
 Git Flow is a git branching and release management strategy that helps developers keep track of features, hotfixes and releases in bigger software projects. You will need to have the git flow extension installed on the client (your computer) before you continue.
 

@@ -1,6 +1,8 @@
-## Layouts
+<link rel="stylesheet" href="../style.css">
 
-![](layouts.png =450x)
+### Layouts
+
+![](layouts.png)
 
 The code for the layout shown above is found in the
 
