@@ -1,15 +1,4 @@
-<style>
-	.code {
-		font-size: 14;
-		font-family: courier;
-	}
-
-	img {
-		width: 100%;
-	}
-</style>
-
-<h4>Foundation</h4>
+## Foundation
 
 Foundation is a responsive front-end framework. It provides a responsive grid and HTML and CSS UI components, templates, and code snippets, including typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.
 
@@ -19,11 +8,9 @@ This is an example of a grid layout used on the front page. There are two rows, 
 
 A full list of Foundation’s elements can be found in Foundation’s documentation. The primary Foundation elements used in The MSU Exponent theme are:
 
-<ul>
-	<li>Grid</li>
-	<li>Block Grid</li>
-	<li>Top bar</li>
-	<li>Off-canvas</li>
-	<li>Forms</li>
-	<li>Buttons</li>
-</ul>
++ Grid
++ Block Grid
++ Top bar
++ Off-canvas
++ Forms
++ Buttons

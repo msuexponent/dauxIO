@@ -1,10 +1,4 @@
-<style>
-	img {
-		width: 100%;
-	}
-</style>
-
-<h4>Host</h4>
+## Host
 
 To access the hosting control panel, login to Digital Ocean with the Exponent’s credentials. 
 

@@ -1,13 +1,11 @@
-<h4>Overview</h4>
+## Overview
 
 This document serves as an outline of the overall web development workflow for The MSU Exponent. It also assumes basic knowledge of the following:
 
-<ul>
-	<li>HTML and CSS</li>
-	<li>PHP</li>
-	<li>WordPress</li>
-	<li>Linux shell commands</li>
-</ul>
++ HTML and CSS
++ PHP
++ WordPress
++ Linux shell commands
 
 The MSU Exponent website is hosted on an Ubuntu 14.04 LTS server on Digital Ocean, a cloud hosting provider built primarily for developers. WordPress is the content management system of choice. Nginx is used as a web server with Varnish providing server-side caching to improve performance. 
 

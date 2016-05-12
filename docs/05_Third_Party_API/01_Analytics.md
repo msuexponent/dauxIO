@@ -1,15 +1,4 @@
-<style>
-	.code {
-		font-size: 14;
-		font-family: courier;
-	}
-
-	img {
-		width: 100%;
-	}
-</style>
-
-<h4>Analytics</h4>
+## Analytics
 
 ![](analytics.png)
 
