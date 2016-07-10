@@ -5,7 +5,7 @@
     </div>
 </div>
 <?php if ($params['html']['repo']) { ?>
-    <a href="https://github.com/<?= $params['html']['repo']; ?>" target="_blank" id="github-ribbon" class="hidden-print"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/<?= $params['html']['repo']; ?>" target="_blank" id="github-ribbon" class="github-ribbon hidden-print"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 <?php } ?>
 
 <div class="homepage-hero container-fluid">
@@ -45,7 +45,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
-                <?= $page['content']; ?>
+                <?php if ($params['html']['search']) { ?>
+                    <div id="tipue_search_content" style="display:none"></div>
+                <?php } ?>
+
+                <div class="doc_content">
+                    <?= $page['content']; ?>
+                </div>
             </div>
         </div>
     </div>
