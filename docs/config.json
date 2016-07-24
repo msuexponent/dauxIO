@@ -9,7 +9,7 @@
     },
     "live": {
         "inherit_index": true,
-        "clean_urls": true
+        "clean_urls": false
     },
     "html": {
         "theme": "daux-blue",
